@@ -1,0 +1,14 @@
+// https://github.com/rcard6/jenkins-library-sessions.git
+library identifier: "jenkins-library-sessions@master",
+        retriever: modernSCM([$class: 'GitSCMSource', remote: 'https://github.com/rcard6/jenkins-library-sessions.git'])
+
+pipeline {
+    agent any
+    stages {
+        stage('Audit tools') {
+            steps {
+                auditTools()
+            }
+        }
+    }
+}

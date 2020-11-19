@@ -19,8 +19,8 @@ pipeline {
                 VERSION_SUFFIX = getVersionSuffix();
             }
             steps {
-                echo "Building versino ${VERSION} with suffix: ${VERSION_RC}"
-                sh 'dotnet build -p:VersionPrefix="${VERSION}" --version-suffix "${VERSION_RC}" ./01/src/Pi.Web/Pi.Web.csproj'
+                echo "Building versino ${VERSION} with suffix: ${VERSION_SUFFIX}"
+                sh 'dotnet build -p:VersionPrefix="${VERSION}" --version-suffix "${VERSION_SUFFIX}" ./01/src/Pi.Web/Pi.Web.csproj'
             }
         }
         stage('Unit Test') {
