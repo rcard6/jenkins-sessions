@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "uAc7s28RVJnamPpevY8b8y0RlxwhXYm/fAVFLFhaPn6404aYMAPie1XEvlaRQf/fDTpFQyYvvzEaagOcH2gYSQ==",
+  "success": true,
+  "projectFilePath": "/workspaces/jenkins-pipeline-demos/m3/src/Pi.Web/Pi.Web.csproj",
+  "expectedPackageFiles": [
+    "/home/vscode/.nuget/packages/powerargs/3.6.0/powerargs.3.6.0.nupkg.sha512",
+    "/home/vscode/.nuget/packages/prometheus-net/3.4.0/prometheus-net.3.4.0.nupkg.sha512",
+    "/home/vscode/.nuget/packages/prometheus-net.aspnetcore/3.4.0/prometheus-net.aspnetcore.3.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

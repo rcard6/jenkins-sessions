@@ -1,0 +1,216 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "PowerArgs/3.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/PowerArgs.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PowerArgs.dll": {}
+        }
+      },
+      "prometheus-net/3.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp2.1/Prometheus.NetCore.dll": {},
+          "lib/netcoreapp2.1/Prometheus.NetStandard.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/Prometheus.NetCore.dll": {},
+          "lib/netcoreapp2.1/Prometheus.NetStandard.dll": {}
+        }
+      },
+      "prometheus-net.AspNetCore/3.4.0": {
+        "type": "package",
+        "dependencies": {
+          "prometheus-net": "3.4.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Prometheus.AspNetCore.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Prometheus.AspNetCore.dll": {}
+        }
+      },
+      "Pi.Math/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "prometheus-net": "3.4.0"
+        },
+        "compile": {
+          "bin/placeholder/Pi.Math.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Pi.Math.dll": {}
+        }
+      },
+      "Pi.Runtime/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "PowerArgs": "3.6.0"
+        },
+        "compile": {
+          "bin/placeholder/Pi.Runtime.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Pi.Runtime.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PowerArgs/3.6.0": {
+      "sha512": "ooaQtI6nLOMNQoNfuiEcM1lnPJ9mBaXF99pt1EHnupwqZtC+L5I7IeSjZ/RA+h6Z2DImdFtWn9PNHbhcL9qNKA==",
+      "type": "package",
+      "path": "powerargs/3.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/PowerArgs.dll",
+        "powerargs.3.6.0.nupkg.sha512",
+        "powerargs.nuspec"
+      ]
+    },
+    "prometheus-net/3.4.0": {
+      "sha512": "M/zn8kwV/orQLw4XAokpUaf0l0xGeB3IuMwLCAVxgK5j0iZPkOZIip5Jh8EoIwCNwdGgCqwnZbwGAqjTnejmqw==",
+      "type": "package",
+      "path": "prometheus-net/3.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/prometheus-net-logo.png",
+        "lib/net461/Prometheus.NetStandard.dll",
+        "lib/net461/Prometheus.NetStandard.pdb",
+        "lib/netcoreapp2.1/Prometheus.NetCore.deps.json",
+        "lib/netcoreapp2.1/Prometheus.NetCore.dll",
+        "lib/netcoreapp2.1/Prometheus.NetCore.pdb",
+        "lib/netcoreapp2.1/Prometheus.NetStandard.deps.json",
+        "lib/netcoreapp2.1/Prometheus.NetStandard.dll",
+        "lib/netcoreapp2.1/Prometheus.NetStandard.pdb",
+        "lib/netstandard2.0/Prometheus.NetStandard.deps.json",
+        "lib/netstandard2.0/Prometheus.NetStandard.dll",
+        "lib/netstandard2.0/Prometheus.NetStandard.pdb",
+        "prometheus-net.3.4.0.nupkg.sha512",
+        "prometheus-net.nuspec"
+      ]
+    },
+    "prometheus-net.AspNetCore/3.4.0": {
+      "sha512": "b5cxrlRiSSU0evNSGyopDziIw+VtOeS6Tj8o9lc1jsPfMQp2leSazNh6JxhKvD5UxEUDyja+39wrSeMJNgqaDA==",
+      "type": "package",
+      "path": "prometheus-net.aspnetcore/3.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/prometheus-net-logo.png",
+        "lib/netcoreapp3.0/Prometheus.AspNetCore.deps.json",
+        "lib/netcoreapp3.0/Prometheus.AspNetCore.dll",
+        "lib/netcoreapp3.0/Prometheus.AspNetCore.pdb",
+        "lib/netstandard2.0/Prometheus.AspNetCore.deps.json",
+        "lib/netstandard2.0/Prometheus.AspNetCore.dll",
+        "lib/netstandard2.0/Prometheus.AspNetCore.pdb",
+        "prometheus-net.aspnetcore.3.4.0.nupkg.sha512",
+        "prometheus-net.aspnetcore.nuspec"
+      ]
+    },
+    "Pi.Math/1.0.0": {
+      "type": "project",
+      "path": "../Pi.Math/Pi.Math.csproj",
+      "msbuildProject": "../Pi.Math/Pi.Math.csproj"
+    },
+    "Pi.Runtime/1.0.0": {
+      "type": "project",
+      "path": "../Pi.Runtime/Pi.Runtime.csproj",
+      "msbuildProject": "../Pi.Runtime/Pi.Runtime.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Pi.Math >= 1.0.0",
+      "Pi.Runtime >= 1.0.0",
+      "PowerArgs >= 3.6.0",
+      "prometheus-net >= 3.4.0",
+      "prometheus-net.AspNetCore >= 3.4.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/vscode/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/workspaces/jenkins-pipeline-demos/m3/src/Pi.Web/Pi.Web.csproj",
+      "projectName": "Pi.Web",
+      "projectPath": "/workspaces/jenkins-pipeline-demos/m3/src/Pi.Web/Pi.Web.csproj",
+      "packagesPath": "/home/vscode/.nuget/packages/",
+      "outputPath": "/workspaces/jenkins-pipeline-demos/m3/src/Pi.Web/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/vscode/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "/workspaces/jenkins-pipeline-demos/m3/src/Pi.Math/Pi.Math.csproj": {
+              "projectPath": "/workspaces/jenkins-pipeline-demos/m3/src/Pi.Math/Pi.Math.csproj"
+            },
+            "/workspaces/jenkins-pipeline-demos/m3/src/Pi.Runtime/Pi.Runtime.csproj": {
+              "projectPath": "/workspaces/jenkins-pipeline-demos/m3/src/Pi.Runtime/Pi.Runtime.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "PowerArgs": {
+            "target": "Package",
+            "version": "[3.6.0, )"
+          },
+          "prometheus-net": {
+            "target": "Package",
+            "version": "[3.4.0, )"
+          },
+          "prometheus-net.AspNetCore": {
+            "target": "Package",
+            "version": "[3.4.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

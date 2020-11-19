@@ -1,0 +1,45 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Pi.Math/1.0.0": {
+        "dependencies": {
+          "prometheus-net": "3.4.0"
+        },
+        "runtime": {
+          "Pi.Math.dll": {}
+        }
+      },
+      "prometheus-net/3.4.0": {
+        "runtime": {
+          "lib/netcoreapp2.1/Prometheus.NetCore.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.4.0.0"
+          },
+          "lib/netcoreapp2.1/Prometheus.NetStandard.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.4.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Pi.Math/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "prometheus-net/3.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-M/zn8kwV/orQLw4XAokpUaf0l0xGeB3IuMwLCAVxgK5j0iZPkOZIip5Jh8EoIwCNwdGgCqwnZbwGAqjTnejmqw==",
+      "path": "prometheus-net/3.4.0",
+      "hashPath": "prometheus-net.3.4.0.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "mPSOCERd9uq97bmGVm1OlRnWBrYuIh9jnwhQxSstiPvCyEjOqkDtzwFV8R5KQuRo9h7vALmIppXtlioz8Xq2dw==",
+  "success": true,
+  "projectFilePath": "/workspaces/jenkins-pipeline-demos/m3/src/Pi.Runtime/Pi.Runtime.csproj",
+  "expectedPackageFiles": [
+    "/home/vscode/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/vscode/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/home/vscode/.nuget/packages/powerargs/3.6.0/powerargs.3.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

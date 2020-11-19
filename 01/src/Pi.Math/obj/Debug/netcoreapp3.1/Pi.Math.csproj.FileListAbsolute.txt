@@ -1,0 +1,9 @@
+/workspaces/jenkins-pipeline-demos/m3/src/Pi.Math/bin/Debug/netcoreapp3.1/Pi.Math.deps.json
+/workspaces/jenkins-pipeline-demos/m3/src/Pi.Math/bin/Debug/netcoreapp3.1/Pi.Math.dll
+/workspaces/jenkins-pipeline-demos/m3/src/Pi.Math/bin/Debug/netcoreapp3.1/Pi.Math.pdb
+/workspaces/jenkins-pipeline-demos/m3/src/Pi.Math/obj/Debug/netcoreapp3.1/Pi.Math.csprojAssemblyReference.cache
+/workspaces/jenkins-pipeline-demos/m3/src/Pi.Math/obj/Debug/netcoreapp3.1/Pi.Math.AssemblyInfoInputs.cache
+/workspaces/jenkins-pipeline-demos/m3/src/Pi.Math/obj/Debug/netcoreapp3.1/Pi.Math.AssemblyInfo.cs
+/workspaces/jenkins-pipeline-demos/m3/src/Pi.Math/obj/Debug/netcoreapp3.1/Pi.Math.csproj.CoreCompileInputs.cache
+/workspaces/jenkins-pipeline-demos/m3/src/Pi.Math/obj/Debug/netcoreapp3.1/Pi.Math.dll
+/workspaces/jenkins-pipeline-demos/m3/src/Pi.Math/obj/Debug/netcoreapp3.1/Pi.Math.pdb

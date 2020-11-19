@@ -1,0 +1,9 @@
+/workspaces/jenkins-pipeline-demos/m3/src/Pi.Runtime/bin/Debug/netstandard2.0/Pi.Runtime.deps.json
+/workspaces/jenkins-pipeline-demos/m3/src/Pi.Runtime/bin/Debug/netstandard2.0/Pi.Runtime.dll
+/workspaces/jenkins-pipeline-demos/m3/src/Pi.Runtime/bin/Debug/netstandard2.0/Pi.Runtime.pdb
+/workspaces/jenkins-pipeline-demos/m3/src/Pi.Runtime/obj/Debug/netstandard2.0/Pi.Runtime.csprojAssemblyReference.cache
+/workspaces/jenkins-pipeline-demos/m3/src/Pi.Runtime/obj/Debug/netstandard2.0/Pi.Runtime.AssemblyInfoInputs.cache
+/workspaces/jenkins-pipeline-demos/m3/src/Pi.Runtime/obj/Debug/netstandard2.0/Pi.Runtime.AssemblyInfo.cs
+/workspaces/jenkins-pipeline-demos/m3/src/Pi.Runtime/obj/Debug/netstandard2.0/Pi.Runtime.csproj.CoreCompileInputs.cache
+/workspaces/jenkins-pipeline-demos/m3/src/Pi.Runtime/obj/Debug/netstandard2.0/Pi.Runtime.dll
+/workspaces/jenkins-pipeline-demos/m3/src/Pi.Runtime/obj/Debug/netstandard2.0/Pi.Runtime.pdb
