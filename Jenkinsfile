@@ -6,7 +6,7 @@ pipeline {
     }
     
     stages {
-        stages('stage-1') {
+        stage('stage-1') {
             steps {
                 echo "This is build number $BUILD_NUMBER of $DEMO"
                 sh '''
