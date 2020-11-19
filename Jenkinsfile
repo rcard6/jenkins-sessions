@@ -16,4 +16,10 @@ pipeline {
             }
         }
     }
+
+    post {
+        always {
+            echo "Prints deploy"
+        }
+    }
 }
